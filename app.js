@@ -1,6 +1,10 @@
 const BASE='https://ttindustries.com.vn';
 const media=p=>`${BASE}/wp-content/uploads/${p}`;
-const assets={logo:'./assets/logo-TT-800x800.jpg',chatAvatar:'./assets/chat-avatar.svg',hero:media('2023/11/Paper-factory.jpg'),mill:media('2023/11/sdt.jpg'),banner:media('2023/11/banner0.jpg'),contact:media('2020/12/contact-banner-1400x415-1.jpg')};
+// Resolve local assets relative to this script so the same paths work on GitHub Pages
+// project URLs and when the page is opened from a local folder.
+const appBase=new URL('.',document.currentScript.src);
+const localAsset=(path)=>new URL(`${path}?v=20261013-2`,appBase).href;
+const assets={logo:localAsset('assets/logo-TT-800x800.jpg'),chatAvatar:localAsset('assets/chat-avatar.svg'),hero:media('2023/11/Paper-factory.jpg'),mill:media('2023/11/sdt.jpg'),banner:media('2023/11/banner0.jpg'),contact:media('2020/12/contact-banner-1400x415-1.jpg')};
 const cats=['Đồng Hồ Áp Suất','Dây Belt Công Nghiệp','Bạc Đạn Công Nghiệp','Phớt Làm Kín Công Nghiệp','Lọc Công Nghiệp','Phớt Bơm Công Nghiệp','Phụ Kiện Hàng Nhập'];
 const products=[
 ['Đồng Hồ Đo Áp Wika 232.50, 233.50','dong-ho-do-ap-wika-232-50-233-50','2024/01/232-wika.webp',cats[0]],
