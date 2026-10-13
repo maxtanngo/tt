@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">Nhân viên tư vấn T&amp;T</title>
+  <desc id="desc">Minh họa cô gái trẻ đeo tai nghe tổng đài, mặc áo xanh navy.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eef6fc"/><stop offset="1" stop-color="#c9e1f3"/></linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#293342"/><stop offset="1" stop-color="#111c2b"/></linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#347bb5"/><stop offset="1" stop-color="#174b7c"/></linearGradient>
+    <clipPath id="circle"><circle cx="120" cy="120" r="120"/></clipPath>
+  </defs>
+  <g clip-path="url(#circle)">
+    <path fill="url(#bg)" d="M0 0h240v240H0z"/>
+    <circle cx="195" cy="43" r="25" fill="#fff" opacity=".35"/>
+    <path fill="#fff" opacity=".48" d="M0 181c31-18 57-22 87-13 25 8 49 7 75-3 30-12 53-8 78 4v71H0z"/>
+    <path fill="url(#shirt)" d="M33 244c3-39 19-65 49-76l38-13 39 13c30 11 46 37 49 76z"/>
+    <path fill="#f0c3a6" d="M99 147v28c0 15 42 15 42 0v-32z"/>
+    <path fill="#fff" d="m120 167 16 14-16 22-16-22z" opacity=".96"/>
+    <path fill="url(#hair)" d="M63 91c-1-43 24-68 60-68 37 0 58 28 56 68l-9 54c-7 23-23 36-47 36-25 0-43-15-49-39z"/>
+    <path fill="#f3c8ac" d="M77 94c0-37 17-55 43-55 27 0 43 21 43 54v34c0 27-18 47-43 47-25 0-43-20-43-47z"/>
+    <path fill="url(#hair)" d="M74 93c1-40 21-65 53-65 26 0 43 17 49 45-14-5-24-14-31-27-11 20-31 32-71 35z"/>
+    <path fill="#202b3a" d="M76 92c-4 13-4 29 0 43 9-7 14-17 14-31V86zm86-8c5 13 7 31 2 48-7-5-12-14-12-28V78z"/>
+    <path fill="#fff" d="M91 104c7-5 15-5 22 0" fill-opacity="0" stroke="#75594f" stroke-width="3" stroke-linecap="round"/>
+    <path fill="#fff" d="M130 104c7-5 15-5 22 0" fill-opacity="0" stroke="#75594f" stroke-width="3" stroke-linecap="round"/>
+    <path fill="#273444" d="M94 111c5-4 11-4 16 0-4 6-12 6-16 0m35 0c5-4 11-4 16 0-4 6-12 6-16 0"/>
+    <path d="M118 114c-2 9-5 16-4 19 2 3 6 4 10 2" fill="none" stroke="#d79b85" stroke-width="2" stroke-linecap="round"/>
+    <path fill="#b75e62" d="M108 143c8-5 17-5 25 0-7 9-18 9-25 0"/>
+    <path fill="#fff" d="M111 143c5-2 12-2 18 0-4 4-13 5-18 0"/>
+    <path fill="none" stroke="#d6dde4" stroke-width="8" d="M62 106V86c0-34 24-60 58-60s58 26 58 60v22"/>
+    <path fill="none" stroke="#fff" stroke-width="3" d="M62 106V86c0-34 24-60 58-60s58 26 58 60v22" opacity=".95"/>
+    <rect x="51" y="94" width="23" height="43" rx="10" fill="#2269a8"/>
+    <rect x="166" y="94" width="23" height="43" rx="10" fill="#2269a8"/>
+    <rect x="57" y="101" width="12" height="29" rx="6" fill="#b6d7ef"/>
+    <rect x="171" y="101" width="12" height="29" rx="6" fill="#b6d7ef"/>
+    <path fill="none" stroke="#2269a8" stroke-width="5" stroke-linecap="round" d="M178 129c-3 17-17 25-34 25h-8"/>
+    <circle cx="133" cy="154" r="5" fill="#2269a8"/>
+    <path fill="#fff" opacity=".8" d="M92 215h56v5H92z"/>
+  </g>
+</svg>
