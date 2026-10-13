@@ -17,7 +17,10 @@ Open `index.html` in a browser, or use any local static-file server. No package 
 - Responsive home page, about, product listing and detail, news, contact, cart, quote request, account, favorites, password recovery and order-tracking screens.
 - Search, category filtering, sorting and pagination across all 95 products found in the public catalogue.
 - Quote-request cart and favorites stored in the visitor's browser.
+- A built-in Vietnamese product assistant that searches the catalogue and routes visitors to quote, contact and order-tracking pages.
 - Original public website imagery referenced from `ttindustries.com.vn`.
+- The supplied T&T logo saved locally and used for the site identity, browser tab icon and social preview metadata.
+- A custom headset-support avatar illustration used in the chatbot launcher and chat panel.
 
 ## Source coverage and functional limits
 
@@ -25,3 +28,6 @@ The public catalogue has eight pages and reports 95 products; their public names
 
 The source site uses WordPress/WooCommerce and may change over time. This repository is a static visual recreation, not a copy of its theme, database, or server implementation.
 
+## Chat assistant
+
+The chat assistant works without an API key and searches the bundled catalogue in the visitor's browser. It provides product links and public contact details, and points visitors to the quote and order-tracking pages. It does not make up technical specifications, inventory, delivery times or prices. To connect a generative AI service later, add a server-side API route and keep its secret key out of the GitHub Pages JavaScript bundle.
