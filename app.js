@@ -1,6 +1,6 @@
 const BASE='https://ttindustries.com.vn';
 const media=p=>`${BASE}/wp-content/uploads/${p}`;
-const assets={logo:'logo-TT-800x800.jpg',chatAvatar:'chat-avatar.svg',hero:media('2023/11/Paper-factory.jpg'),mill:media('2023/11/sdt.jpg'),banner:media('2023/11/banner0.jpg'),contact:media('2020/12/contact-banner-1400x415-1.jpg')};
+const assets={logo:'./assets/logo-TT-800x800.jpg',chatAvatar:'./assets/chat-avatar.svg',hero:media('2023/11/Paper-factory.jpg'),mill:media('2023/11/sdt.jpg'),banner:media('2023/11/banner0.jpg'),contact:media('2020/12/contact-banner-1400x415-1.jpg')};
 const cats=['Đồng Hồ Áp Suất','Dây Belt Công Nghiệp','Bạc Đạn Công Nghiệp','Phớt Làm Kín Công Nghiệp','Lọc Công Nghiệp','Phớt Bơm Công Nghiệp','Phụ Kiện Hàng Nhập'];
 const products=[
 ['Đồng Hồ Đo Áp Wika 232.50, 233.50','dong-ho-do-ap-wika-232-50-233-50','2024/01/232-wika.webp',cats[0]],
